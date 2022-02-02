@@ -64,7 +64,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-radius: 30px;
     padding: 20px 100px;
     margin-bottom: 200px;
+    cursor: pointer;
+    
 }
+.desafio-button:hover {
+    background-color: #4dc3f1;
+    border: 1px solid #4dc3f1;
+}
+
+.desafio-button:active {
+    background: #00C8FF;
+}
+
 
 .desafio-footer {
     background-color: #313131;
